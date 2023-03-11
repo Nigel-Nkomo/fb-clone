@@ -5,8 +5,8 @@ export default function MarketIcon() {
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
+        width="30"
+        height="30"
         fill="currentColor"
         class="bi bi-shop"
         viewBox="0 0 16 16"
