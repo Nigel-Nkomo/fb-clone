@@ -19,7 +19,7 @@ export default function Header() {
         <FacebookLogo />
         <div className="header__input">
           <SearchIcon />
-          <input type="text" />
+          <input type="text" className="" placeholder="Search Facebook" />
         </div>
       </div>
       <div className="header__middle">

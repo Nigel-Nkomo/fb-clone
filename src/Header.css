@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header__left {
+  display: flex;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  background-color: var(--grey-light);
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
+input {
+  border: none;
+  background-color: var(--grey-light);
+  outline: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.header__option {
+  padding: 0.5rem 2.5rem;
+  cursor: pointer;
+}
+
+.header__option:hover {
+  background-color: var(--grey-light);
+  border-radius: 0.8rem;
+}
+
+.icon {
+  color: var(--grey-dark);
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 12rem;
+}
+
+.header__info {
+  cursor: pointer;
+}
+
+.header__info:last-child:hover {
+  background-color: transparent;
+}
+
+.header__info:not(:last-child) {
+  background-color: var(--grey-light);
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 0.65rem;
+  border-radius: 50%;
+}
+
+.header__info:hover {
+  background-color: var(--grey-hover);
+}

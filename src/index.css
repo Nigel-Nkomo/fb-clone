@@ -1,3 +1,9 @@
+:root {
+  --grey-light: #eff2f5;
+  --grey-dark: #777777;
+  --grey-hover: #c3c3c3;
+}
+
 * {
   margin: 0;
   padding: 0;
